@@ -30,7 +30,7 @@ public class Game1 : Game
         _spriteBatch = new SpriteBatch(GraphicsDevice);
 
         // TODO: use this.Content to load your game content here
-        Texture2D pixel = Content.Load<Texture2D>("pixel");
+        Texture2D pixel = Content.Load<Texture2D>("Snowflake");
         particleSystem = new ParticleSystem(pixel);
     }
 
